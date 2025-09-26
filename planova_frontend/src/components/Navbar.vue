@@ -12,7 +12,7 @@
     </ul>
 
     <div class="navbar-right">
-      <span class="user-name">Salut, Admin!</span>
+      <span class="user-name">Salut, Andrei Cojocaru!</span>
       <button class="logout-btn" @click="handleLogout">Logout</button>
       <button class="burger-btn" @click="toggleMenu">
         <span :class="{ 'burger-open': isMenuOpen }"></span>

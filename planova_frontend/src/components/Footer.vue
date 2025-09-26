@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <main>
-      <p>Conținutul paginii...</p>
-    </main>
 
     <footer>
       Footer lipit de jos
@@ -18,18 +15,7 @@ export default {
 
 <style>
 html, body {
-  height: 100%;
   margin: 0;
-}
-
-#app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1; /* ocupă tot spațiul liber */
 }
 
 footer {
