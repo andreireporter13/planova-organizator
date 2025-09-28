@@ -41,7 +41,7 @@ curl -X POST http://0.0.0.0:8000/whois-backend/auth/register \
   -d '{
     "username": "example_123",
     "password": "parola123",
-    "email": "andrei.reporter13@gmail.com"
+    "email": "andrei.reporter13@gmail.com"i
   }'
 
 
