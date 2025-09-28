@@ -1,0 +1,34 @@
+planova_frontend/.vscode
+
+# Logs
+planova_frontend/logs
+planova_frontend/*.log
+planova_frontend/npm-debug.log*
+planova_frontend/yarn-debug.log*
+planova_frontend/yarn-error.log*
+planova_frontend/pnpm-debug.log*
+planova_frontend/lerna-debug.log*
+
+planova_frontend/node_modules
+planova_frontend/dist
+planova_frontend/dist-ssr
+planova_frontend/*.local
+
+# Editor directories and files
+planova_frontend/.vscode/*
+!planova_frontend/.vscode/extensions.json
+planova_frontend/.idea
+planova_frontend/.DS_Store
+planova_frontend/*.suo
+planova_frontend/*.ntvs*
+planova_frontend/*.njsproj
+planova_frontend/*.sln
+planova_frontend/*.sw?
+
+planova_frontend/.env
+
+# ignore all from backend
+planova_backend/venv
+planova_backend/**/__pycache__/
+.ropeproject
+planova_backend/.env
